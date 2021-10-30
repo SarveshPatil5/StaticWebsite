@@ -1,0 +1,157 @@
+            .section4 {
+                background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("bg2.jpg");
+                padding-top: 10rem;
+                padding-bottom: 6rem;
+                padding: auto;
+                background-repeat: no-repeat;
+                width: 100%;
+                background-size: cover;
+            }
+            
+            .sec4-contain {
+                width: 100%;
+                padding-left: 10%;
+                padding-right: 10%;
+            }
+            
+            .sec4-h1 {
+                font-size: 42px;
+                color: black;
+            }
+            
+            .sec4-h2 {
+                font-size: 18px;
+                color: black;
+                padding-top: 5px;
+                padding-right: 10%;
+                padding-left: 10%;
+            }
+            
+            .btn4 {
+                padding: 12px 30px;
+                border-radius: 0px;
+                border-width: 0px;
+                margin: 1.5rem -0.4rem;
+                background-color: #4e84c2;
+                border-color: #4e84c2;
+                color: #ffffff;
+                transition-duration: 0.4s;
+                font-size: larger;
+            }
+            
+            .btn4:hover {
+                background-color: #50b1dd;
+            }
+            
+            @media (max-width: 952px) {
+                .sec4-contain {
+                    width: 100%;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                }
+                .sec4-h1 {
+                    font-size: 35px;
+                    color: black;
+                    text-align: justify;
+                }
+                .sec4-h2 {
+                    font-size: 14px;
+                    color: black;
+                    padding-top: 15px;
+                    text-align: justify;
+                }
+                .btn4 {
+                    padding: 12px 30px;
+                    border-radius: 0px;
+                    border-width: 0px;
+                    margin: 1.5rem -0.4rem;
+                    background-color: #4e84c2;
+                    border-color: #4e84c2;
+                    color: #ffffff;
+                    transition-duration: 0.4s;
+                    cursor: pointer;
+                    display: inline-block;
+                    font-size: 16px;
+                }
+                .btn4:hover {
+                    background-color: #50b1dd;
+                }
+                .sec4-img {
+                    float: left;
+                    width: 280px;
+                    height: 180px;
+                    margin-right: 20px;
+                }
+            }
+            
+            .sec4-img {
+                float: left;
+                width: 340px;
+                height: 267px;
+                margin-right: 20px;
+            }
+            
+            @media (max-width: 520px) {
+                .section4 {
+                    align-items: center;
+                }
+                .sec4-img {
+                    width: 250px;
+                    height: 160px;
+                    float: center;
+                }
+                .sec4-h1 {
+                    font-size: 35px;
+                    color: black;
+                    text-align: center;
+                }
+                .sec4-h2 {
+                    font-size: 15px;
+                    color: black;
+                    padding-top: 20px;
+                    text-align: justify;
+                }
+                .btn4 {
+                    padding: 14px 32px;
+                    border-radius: 0px;
+                    border-width: 0px;
+                    margin: 2.5rem -0.4rem;
+                    background-color: #4e84c2;
+                    border-color: #4e84c2;
+                    color: #ffffff;
+                    transition-duration: 0.4s;
+                    cursor: pointer;
+                    display: inline-block;
+                    font-size: 16px;
+                }
+                .btn4:hover {
+                    background-color: #50b1dd;
+                }
+                .cen {
+                    text-align: center;
+                }
+            }
+            
+            @media (max-width: 425px) {
+                .sec4-img {
+                    width: 340px;
+                    height: 217px;
+                    float: center;
+                }
+            }
+            
+            @media (max-width: 375px) {
+                .sec4-img {
+                    width: 290px;
+                    height: 180px;
+                    margin-bottom: 30px;
+                }
+            }
+            
+            @media (max-width: 320px) {
+                .sec4-img {
+                    width: 252px;
+                    height: 177px;
+                    margin-bottom: 30px;
+                }
+            }

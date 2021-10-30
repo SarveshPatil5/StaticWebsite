@@ -1,0 +1,80 @@
+/*Section 1 Starts */
+
+.section1 {
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-left: 30px;
+}
+
+.sec1-contain {
+    max-width: 65%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.sec1-h1 {
+    font-size: 42px;
+    color: white;
+}
+
+.sec1-h2 {
+    font-size: 29px;
+    color: white;
+    padding-top: 20px;
+    max-width: max-content;
+}
+
+.btn {
+    padding: 12px 30px;
+    border-radius: 0px;
+    border-width: 0px;
+    margin: 2.4rem -0.2rem;
+    background-color: #4e84c2;
+    border-color: #4e84c2;
+    color: #ffffff;
+    transition-duration: 0.4s;
+    font-size: larger;
+}
+
+.btn:hover {
+    background-color: #50b1dd;
+}
+
+@media (max-width: 952px) {
+    .sec1-contain {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .sec1-h1 {
+        font-size: 35px;
+        color: white;
+    }
+    .sec1-h2 {
+        font-size: 20px;
+        color: white;
+        padding-top: 30px;
+    }
+    .btn {
+        padding: 12px 30px;
+        border-radius: 0px;
+        border-width: 0px;
+        margin: 3.4rem -0.2rem;
+        background-color: #4e84c2;
+        border-color: #4e84c2;
+        color: #ffffff;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        display: inline-block;
+        text-align: center;
+        font-size: 16px;
+    }
+    .btn:hover {
+        background-color: #50b1dd;
+    }
+}
+
+
+/* Section 1 Ends*/

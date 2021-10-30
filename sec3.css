@@ -1,0 +1,101 @@
+.sec3-column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    padding-right: 10%;
+    text-align: center;
+}
+
+
+/* Clear floats after the columns */
+
+.sec3-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sec3-btn1 {
+    padding: 12px 30px;
+    border-radius: 0px;
+    border-width: 0px;
+    background-color: #4e84c2;
+    border-color: #4e84c2;
+    color: #ffffff;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    display: inline-block;
+    text-align: left;
+    font-size: 16px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.sec3-btn1:hover {
+    background-color: #50b1dd;
+}
+
+.img {
+    width: 350px;
+    height: 240px;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width:952px) {
+    .sec3-column {
+        width: 100%;
+    }
+    p {
+        font-size: large;
+        text-align: left;
+    }
+    .sec3-p {
+        font-size: 40px;
+        text-align: center;
+    }
+    .img {
+        width: 288px;
+        height: 192px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .img {
+        width: 250px;
+        height: 170px;
+        margin-bottom: 20px;
+    }
+}
+
+.sec3-h1 {
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.sec3-header {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.sec3-section2 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.sec3-padi {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.sec3-p {
+    font-size: 40px;
+}
+
+.sec3-p12 {
+    text-align: left;
+}
